@@ -4,6 +4,12 @@
     {
         static void Main(string[] args)
         {
+            VarsLiteralsExample();
+            Console.WriteLine(Sum(20, 30));
+        }
+
+        static void VarsLiteralsExample()
+        {
             int number = 0;
             Int32 numberTwo;
             string str;
@@ -32,6 +38,11 @@
             Console.Write("Number = ");
             number = int.Parse(Console.ReadLine());
             //number = Convert.ToInt32(Console.ReadLine());
+        }
+
+        static int Sum(int a, int b)
+        {
+            return a + b;
         }
     }
 }
