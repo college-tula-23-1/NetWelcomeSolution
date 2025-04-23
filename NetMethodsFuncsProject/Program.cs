@@ -17,6 +17,12 @@ int Sum(int a,  int b = 0)
     return result;
 }
 
+long factorial(int n)
+{
+    if (n == 0) return 1;
+    return factorial(n - 1) * n;
+}
+
 void SayHello(string name) => Console.WriteLine($"Hello {name}");
 
 /*
@@ -41,5 +47,19 @@ void SumArray(int[] array, out int sum)
 void func(in int n)
 {
 
+}
+
+enum WayType
+{
+    Up, 
+    Down,
+    Left,
+    Right,
+}
+
+enum Region
+{
+    Tula = 71,
+    Irkutsk = 38
 }
 

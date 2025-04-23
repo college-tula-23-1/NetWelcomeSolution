@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetWelcomeProject", "NetWel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetOperationsProject", "NetOperationsProject\NetOperationsProject.csproj", "{34D5408E-51C7-4DAC-90E1-40D8FBFAAAB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetArraysProject", "NetArraysProject\NetArraysProject.csproj", "{09370A99-7C93-4CE9-B1FD-2D2CFC5B2C2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetArraysProject", "NetArraysProject\NetArraysProject.csproj", "{09370A99-7C93-4CE9-B1FD-2D2CFC5B2C2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMethodsFuncsProject", "NetMethodsFuncsProject\NetMethodsFuncsProject.csproj", "{37365BD2-0F91-4BDA-8AB0-DC256C17644E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMethodsFuncsProject", "NetMethodsFuncsProject\NetMethodsFuncsProject.csproj", "{37365BD2-0F91-4BDA-8AB0-DC256C17644E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDataStructuresProject", "NetDataStructuresProject\NetDataStructuresProject.csproj", "{B2F0B7D3-B564-4887-9D6F-4704481AFE39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{37365BD2-0F91-4BDA-8AB0-DC256C17644E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37365BD2-0F91-4BDA-8AB0-DC256C17644E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37365BD2-0F91-4BDA-8AB0-DC256C17644E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F0B7D3-B564-4887-9D6F-4704481AFE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F0B7D3-B564-4887-9D6F-4704481AFE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F0B7D3-B564-4887-9D6F-4704481AFE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F0B7D3-B564-4887-9D6F-4704481AFE39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
